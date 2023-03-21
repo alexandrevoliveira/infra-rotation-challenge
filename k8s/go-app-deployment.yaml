@@ -12,6 +12,7 @@ spec:
       labels:
         app: go-app
     spec:
+      terminationGracePeriodSeconds: 120
       containers:
         - name: go-app
           image: alexandrevoliveira/docker-go-ir
